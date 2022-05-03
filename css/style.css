@@ -1,0 +1,24 @@
+body {
+  background-image: url('../assets/home_background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  resize: both;
+}
+
+.vcentered {
+  margin: 0;
+  top: 0%;
+  -ms-transform: translateY(60%);
+  transform: translateY(60%);
+}
+
+.jumbotron {
+  background: rgba(0, 0, 0, .2);
+  color: rgba(1, 0, 0, 1.0);
+}
+
+.navbar {
+  background: rgba(0, 0, 0, .2);
+}
