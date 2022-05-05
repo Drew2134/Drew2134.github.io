@@ -1,8 +1,8 @@
-body {
+.bg-home {
   background-image: url('../assets/home_background.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center center;
+  background-position: left center;
   background-size: cover;
   resize: both;
 }
@@ -15,10 +15,55 @@ body {
 }
 
 .jumbotron {
-  background: rgba(0, 0, 0, .2);
+  background: rgba(0, 0, 0, .1);
   color: rgba(1, 0, 0, 1.0);
 }
 
 .navbar {
-  background: rgba(0, 0, 0, .2);
+  background: rgba(0, 0, 0, .1);
+}
+
+.nav-bold {
+  font-weight: bold;
+}
+
+.bg-bio {
+  background: rgba(255, 255, 255, 0.5);
+  background-image: url('../assets/bio_background.jpg');
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  resize: both;
+}
+.bio-image {
+  width: 30%;
+  min-width: 300px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+#bioCarousel {
+  min-width: 70%;
+  max-width: 100%;
+
+}
+
+.resume {
+  width: 80%;
+  height: 80%;
+}
+
+.dl-link {
+  color: royalblue;
+  font-weight: bold;
+  font-size: 18px;
 }
