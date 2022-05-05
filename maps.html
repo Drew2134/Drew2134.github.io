@@ -9,10 +9,10 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="bg-maps">
 
 	<nav class="navbar navbar-expand-lg navbar-light">
-	  <img src="assets\logo_transparent.png" height="100"/>
+	  <img src="assets/logo_transparent.png" height="100"/>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -25,19 +25,45 @@
 	      <li class="nav-item">
 	        <a class="nav-link nav-bold" href="bio.html">Bio</a>
 	      </li>
-	      <li class="nav-item dropdown active nav-bold">
-	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	          Geospatial Content
-	        </a>
-	        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-	          <a class="dropdown-item active nav-bold" href="maps.html">Maps<span class="sr-only">(current)</span></a>
-	          <a class="dropdown-item nav-bold" href="tools.html">Tools/Scripts</a>
-	        </div>
+	      <li class="nav-item active">
+	        <a class="nav-link nav-bold" href="maps.html">Geospatial Content</a>
 	      </li>
 	    </ul>
 	  </div>
 	</nav>
 
+	<div id="mapsCarousel" class="carousel slide" data-ride="carousel" data-interval=false>
+	  <ol class="carousel-indicators">
+	    <li data-target="#mapsCarousel" data-slide-to="0" class="active"></li>
+	    <li data-target="#mapsCarousel" data-slide-to="1"></li>
+	  </ol>
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	    	<br>
+	      <div class="text-center">
+	    	<img src="assets/dashboard1.png" class="carousel-images">
+	    	<br><br>
+		  </div>
+	      <div class="text-center">
+	      	<img src="assets/dashboard2.png" class="dashboards">
+	      	<img src="assets/dashboard3.png" class="dashboards">
+	    	<p style="width: 80%; margin: auto;">
+	    		This dashboard is published publicly in ArcGIS Online as "Psychiatric Facilities Analysis". The purpose of this dashboard was to create an interactive display illustrating some of the socioeconomic boundaries that occur when seeking mental health care. Our studies indicated that throughout the state of Wisconsin, approximately 1.4 million people in the state are required to drive at least an hour to the nearest psychiatric facility and those further from facilities are more likely to be uninsured and have a lower median household income. These studies were conducted assuming access to mental health car was limited to in-state facilities.
+	    	</p>
+	    	<br>
+	   		<br>
+		  </div>
+	    </div>
+	  </div>
+	  <a class="carousel-control-prev" href="#mapsCarousel" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#mapsCarousel" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
 
 
 
