@@ -68,3 +68,18 @@
   font-weight: bold;
   font-size: 18px;
 }
+
+.bio-frame {
+  background: rgba(255, 255, 255, 1.0);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.bio-textbox {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
